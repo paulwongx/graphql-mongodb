@@ -1,0 +1,23 @@
+{
+	"name": "20210226_tut_graphql_mongodb_express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"mongooseStart": "CHOKIDAR_USEPOLLING=true nodemon appMongoose.js",
+		"mongoStart": "CHOKIDAR_USEPOLLING=true nodemon appMongo.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"express-graphql": "^0.12.0",
+		"graphql": "^15.5.0",
+		"mongodb": "^3.6.4",
+		"mongoose": "^5.11.18",
+		"nodemon": "^2.0.7"
+	}
+}
